@@ -3,7 +3,7 @@
 
 Name:           %{?scl_prefix}javamail
 Version:        1.5.2
-Release:        4.1%{?dist}
+Release:        4.2%{?dist}
 Summary:        Java Mail API
 License:        CDDL or GPLv2 with exceptions
 URL:            http://www.oracle.com/technetwork/java/javamail
@@ -86,6 +86,9 @@ ln -sf ../%{pkg_name}/javax.mail.jar %{buildroot}%{_javadir}/javax.mail/
 %doc mail/src/main/resources/META-INF/LICENSE.txt
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 1.5.2-4.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 1.5.2-4.1
 - Automated package import and SCL-ization
 
